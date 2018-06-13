@@ -12,6 +12,7 @@
 		FAA5078020D1B0F200158067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA5077E20D1B0F200158067 /* Main.storyboard */; };
 		FAA5078220D1B0F300158067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA5078120D1B0F300158067 /* Assets.xcassets */; };
 		FAA5078520D1B0F300158067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA5078320D1B0F300158067 /* LaunchScreen.storyboard */; };
+		FAA5078E20D1B2D500158067 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5078D20D1B2D500158067 /* Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FAA5078120D1B0F300158067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA5078420D1B0F300158067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA5078620D1B0F300158067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA5078D20D1B2D500158067 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		FAA5077920D1B0F200158067 /* IOS-Swift-ARKit3dText */ = {
 			isa = PBXGroup;
 			children = (
+				FAA5078C20D1B2BC00158067 /* Helper */,
 				FAA5077A20D1B0F200158067 /* AppDelegate.swift */,
 				FAA5077C20D1B0F200158067 /* ViewController.swift */,
 				FAA5077E20D1B0F200158067 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				FAA5078620D1B0F300158067 /* Info.plist */,
 			);
 			path = "IOS-Swift-ARKit3dText";
+			sourceTree = "<group>";
+		};
+		FAA5078C20D1B2BC00158067 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5078D20D1B2D500158067 /* Extentions.swift */,
+			);
+			name = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				FAA5077D20D1B0F200158067 /* ViewController.swift in Sources */,
 				FAA5077B20D1B0F200158067 /* AppDelegate.swift in Sources */,
+				FAA5078E20D1B2D500158067 /* Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
